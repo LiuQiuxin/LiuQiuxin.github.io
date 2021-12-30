@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .parent {
+     text-align: center;
+      width:90%;
+      margin: 0px auto;
+      background-color: red;
+      height: 40px;
+      position: relative;
+    }
+    .child {
+      /*display: inline-block;*/
+      width: 0px;
+      height: 20px;
+      overflow: hidden;
+      background-color: #01AAED;
+      transition: width .5s;
+      /*margin: 0px auto;*/
+      position:absolute;
+      right: 0px;
+    }
+    .parent:hover .child {
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">BUTTON
+    <div class="child">AAA</div>
+  </div>
+</body>
+</html>
