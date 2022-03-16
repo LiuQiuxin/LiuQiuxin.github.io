@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b1a18"],{2158:function(n,e,r){"use strict";r.r(e);var t=function(){var n=this,e=n.$createElement,r=n._self._c||e;return r("div",[n._v(" 我是团购订单内容 ")])},u=[],a={name:"GroupOrder"},c=a,l=r("2877"),o=Object(l["a"])(c,t,u,!1,null,null,null);e["default"]=o.exports}}]);
-//# sourceMappingURL=chunk-2d0b1a18.035e6e57.js.map
